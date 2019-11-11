@@ -1,0 +1,106 @@
+.reasons_for_choosing {
+	background-color: #fff;
+}
+
+.container {
+	width: 100%;
+	max-width: 1150px;
+	margin: 108px auto 105px;
+}
+
+.heading {
+	margin: 0 auto 80px;
+}
+
+.title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	color: #212121;
+	text-align: center;
+	margin: 0 auto 29px;
+}
+
+.line {
+	background-color: #ff8c2c;
+	width: 64px;
+	height: 2px;
+	margin: 0 auto 30px;
+	border: none;
+}
+
+.subtitle {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #86878b;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.points{
+	display: flex;
+	align-items: flex-start;
+}
+
+.point-info {
+	width: 33.3%;
+	padding: 0 15px;
+}
+
+.logo_lamp {
+	width: 70px;
+	height: 70px;
+	margin: 0 auto 30px;
+	border: 2px solid #ff8b38;
+	border-radius: 50%;
+	display: flex;
+}
+
+.logo_lamp img{
+	display: block;
+	margin: auto;
+}
+
+.point_head {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #333;
+	text-align: center;
+	margin: 0 auto 25px;
+}
+
+.text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #86878b;
+	text-align: center;
+}
+
+.logo_keyboard {
+	width: 70px;
+	height: 70px;
+	margin: 0 auto 30px;
+	border: 2px solid #ff8b38;
+	border-radius: 50%;
+	display: flex;
+}
+
+.logo_keyboard img{
+	display: block;
+	margin: auto;
+}
+
+.logo_lightning {
+	width: 70px;
+	height: 70px;
+	margin: 0 auto 30px;
+	border: 2px solid #ff8b38;
+	border-radius: 50%;
+	display: flex;
+}
+
+.logo_lightning img{
+	display: block;
+	margin: auto;
+}

@@ -3,15 +3,78 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Homework</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700|Raleway:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700|Raleway:300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="Assets/css/reset.css">
 	<link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<div class="logo-img"><a href="#"><img src="Assets/img/Logo.png" alt="logo" width="80px"></a></div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#Features">Features</a></li>
+					<li><a href="#About">About</a></li>
+					<li><a href="#Pricing">Pricing</a></li>
+					<li><a href="#Reviews">Reviews</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 	<main>
-		<section class="advantages">
+    <section class="hero">
+      <div class="container">
+      <div class="description">
+        <div class="logo">
+          <img src="Assets/img/Logo.png" alt="logo">
+        </div>
+        <h1>
+          MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+        </h1>
+        <div class="line"></div>
+        <div class="subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+        </div>
+        <div class="download-button">
+          <a href="#" download>Download</a>
+        </div>
+      </div>
+      <div class="signup-form">
+        <form action="#">
+          <h2>Try Your <span>FREE</span> Trial Today</h2>
+          <div class="form-info">
+            <div class="form-field">
+              <label for="username">
+                <span>Name</span>
+              </label>
+              <input type="text" name="username" required id="username">
+            </div>
+            <div class="form-field">
+              <label for="email">
+                <span>Email</span>  
+              </label>
+              <input type="email" name="email-address" required id="email">
+            </div>
+            <div class="form-field">  
+              <label for="password">
+                <span>Password</span>
+              </label>
+              <input type="password" name="password" required id="password">
+            </div>
+          </div>
+          <div class="form-button">
+            <button type="submit" class="btn">Get Started</button> 
+          </div>
+        </form>
+      </div>
+      </div>
+    </section>
+		<section class="advantages" id="About">
 			<div class="container">
-			<header>
+			<div class="header">
 				<h2 class="title">
 					WHY THIS IS AWESOME
 				</h2>
@@ -21,7 +84,7 @@
 				<p class="subtitle">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</p>
-			</header>
+			</div>
 			<div class="advantages-container">
 				<div class="advantage">
 					<div class="icon">
@@ -59,9 +122,9 @@
 			</div>
 			</div>
 		</section>
-		<section class="pricing-plans">
+		<section class="pricing-plans" id="Pricing">
 			<div class="container">
-				<header>
+				<div class="header">
 					<h2 class="title">
 					PRICING OPTIONS
 				</h2>
@@ -71,7 +134,7 @@
 				<p class="subtitle">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</p>
-				</header>
+				</div>
 				<div class="pricing-plans-container">
 					<div class="pricing-plan">
 						<div class="name">
@@ -143,9 +206,9 @@
 				</div>
 			</div>			
 		</section>
-		<section class="clients-feedback">
+		<section class="clients-feedback" id="Reviews">
 			<div class="container">
-				<header>
+				<div class="header">
 					<h2 class="title">
 						WHAT OUR CUSTOMERS ARE SAYING
 					</h2>
@@ -155,7 +218,7 @@
 					<p class="subtitle">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					</p>
-				</header>
+				</div>
 				<div class="feedbacks-container">
 					<div class="feedback">
 						<div class="text-box">
@@ -211,6 +274,91 @@
 				</div>
 			</div>
 		</section>
+		<section class="download">
+			<div class="container">
+			<div class="header">
+				<h2 class="title">
+					STYLISH AXURE DESIGN
+				</h2>
+
+				<div class="line"></div>
+							
+				<p class="subtitle">
+					Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
+				</p>
+			</div>
+			<div class="download-button">
+				<a href="#" download="">Download</a>
+			</div>
+		</section>
+		<section class="contact" id="Contact">
+			<div class="container">
+			<div class="header">
+				<h2 class="title">
+					CONTACT US
+				</h2>
+
+				<div class="line"></div>
+							
+				<p class="subtitle">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</p>
+			</div>
+			<form>
+  				<div class="form-fields">
+    				<div class="form-info">
+    					<div class="form-field">
+    						<label for="username">
+ 								<span>Name</span>
+							</label>
+							<input type="text" name="username" required id="username">
+						</div>
+						<div class="form-field">
+							<label for="email">
+ 								<span>Email</span>	
+							</label>
+							<input type="email" name="email-address" required id="email">
+						</div>
+						<div class="form-field">	
+							<label for="subject">
+ 								<span>Subject</span>
+							</label>
+							<input type="text" name="username" required id="subject">
+						</div>	
+    				</div>
+    				<div class="message">
+    					<label>
+ 							<span>Message</span>
+							<textarea name="message"></textarea>
+						</label>	
+    				
+      				</div>
+ 				</div>
+  				<div class="button">
+  					<button type="submit" class="btn">Send Message</button> 
+  				</div>
+			</form>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="socials">
+					<div class="logo">
+					
+							<div class="logo-img"><a href="#"><img src="Assets/img/facebook.png" alt=""></a></div>
+							<div class="logo-img"><a href="#"><img src="Assets/img/twitter.png" alt=""></a></div>
+							<div class="logo-img"><a href="#"><img src="Assets/img/google+.png" alt=""></a></div>
+							<div class="logo-img"><a href="#"><img src="Assets/img/pinterest.png" alt=""></a></div>
+							<div class="logo-img"><a href="#"><img src="Assets/img/instagram.png" alt=""></a></div>
+							<div class="logo-img"><a href="#"><img src="Assets/img/StumbleUpon.png" alt=""></a></div>
+							<div class="logo-img"><a href="#"><img src="Assets/img/RSSfeed.png" alt=""></a></div>			
+					</div>
+				</div>
+				<div class="subtitle">
+						© 2015 Axure Themes
+				</div>
+				
+			</div>
+		</footer>
 	</main>
 </body>
 </html>

@@ -1,14 +1,186 @@
-
 .container {
 	max-width: 1150px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
+
+.download-button {
+	width: 135px;
+}
+
+.download-button a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	color: #fff;
+	border: 2px solid #f5f5f5;
+	padding: 10px 30px;
+	text-decoration: none;	
+	cursor: pointer;
+	line-height: 46px;
+}
+
+header {
+	background-color: #000;
+	height: 70px;
+}
+
+header .container {
+	height: 100%;
+}
+
+header .logo {
+	float: left;
+	display: table;
+	height: 100%;
+}
+
+header .logo .logo-img {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+header nav {
+	float: right;
+	display: table;
+	height: 100%;
+}
+
+header nav ul {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+header nav li {
+	float: left;
+	margin-left: 46px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+header nav li a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.69);
+	padding: 10px 0;
+}
+
+.hero {
+	padding: 110px 0 138px;
+	background-color: rgba(0, 0, 0, 0.52);
+	background-image: url(../img/background-hero.png);
+	background-blend-mode: darken;
+	background-size: cover;
+}
+
+.hero .description {
+	display: inline-block;
+	width: 45.6%;
+	margin-right: 21.6%;
+}
+
+.hero .description .logo {
+	margin-bottom: 20px;
+}
+
+.hero .description h1 {
+	font-size: 36px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+.hero .description .line {
+	background-color: #fff;
+	margin: 0 0 40px;
+}
+
+.hero .description .subtitle {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	margin-bottom: 46px;
+	line-height: 23px;
+}
+
+.hero .download-button {
+	margin: 0;
+}
+
+.hero .signup-form {
+	display: inline-block;
+	width: 32%;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.hero .signup-form  h2 {
+	background-color: #f5f5f5;
+	padding: 18px 0 14px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #333;
+}
+
+.hero .signup-form  h2 span {
+	color: #ff8b38;
+	font-weight: 700;
+}
+
+.hero .signup-form .form-info {
+	background-color: #fff;
+	padding: 40px 35px 48px;
+}
+
+.hero .form-field span {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #bdbdbd;
+	margin-left: 12px;
+}
+
+.hero .form-field input {
+  border: 0; 
+  outline: none;
+  flex-grow: 1;
+}
+
+.hero form .form-field {
+	display: flex;
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 6px;  
+}
+
+.hero form .form-field:not(:last-child) {
+	margin-bottom: 44px;
+}
+
+.hero form .form-field label {
+	flex-grow: 0;
+	margin-right: 5px;
+}
+
+.hero form .form-button button {
+	background-color: #ff9b51;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	color: #fff;
+	padding: 20px 0;
+	border: 0;
+}
+
 
 .advantages {
 	padding: 106px 0;
 	background-color: #fff;
 }
-.advantages header, .pricing-plans header, .clients-feedback header {
+.advantages .header, .pricing-plans .header, .clients-feedback .header, .download .header, .contact .header {
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 80px;
@@ -20,9 +192,10 @@
 	line-height: 43px;
 	font-weight: 400;
 	margin-bottom: 30px;
+	color: #212121;
 }
 
-.line {
+.line {	
 	width: 64px;
 	height: 2px;
 	background-color: #ff8b38;
@@ -35,10 +208,6 @@
 	font-size: 14px;
 	line-height: 20px;
 	color: #86878b;
-}
-
-.advantages-container {
-
 }
 
 .advantage {
@@ -175,7 +344,7 @@
 }
 
 .clients-feedback {
-	padding: 110px 0 100px;
+	padding: 108px 0 104px;
 	background-color: #fff;
 }
 
@@ -254,3 +423,159 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
+
+.download {
+	padding: 62px 0 74px;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-image: url(../img/background.png);
+	background-blend-mode: darken;
+	background-size: cover;
+}
+
+.download .header {
+	margin-bottom: 41px;
+
+}
+
+.download .header .title {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.download .header .line {	
+	background-color: #fff;
+	margin: 0 auto 28px;
+}
+
+.download .header .subtitle {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: rgba(191, 191, 191, 0.8);
+}
+
+.download .download-button {
+	margin: 0 auto;
+}
+
+footer {
+	background-color: #000;
+	padding: 34px 0 8px;
+}
+
+.socials .logo {
+	width: 28.5%;
+	margin: 0 auto 5px;
+}
+
+.socials .logo .logo-img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+.socials .logo .logo-img:not(:last-child) {
+	margin-right: 15px
+}
+
+.socials .logo .logo-img a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.socials .logo .logo-img a img {
+	vertical-align: middle;
+}
+
+footer .subtitle {
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.contact {
+	padding: 106px 0 82px;
+	background-color: #fff;
+}
+
+.contact form {
+	width: 100%;
+}
+
+.contact .form-fields {
+	display: flex;
+	height: 150px;
+	margin-bottom: 40px;
+	justify-content: space-between;
+}
+
+.contact form .form-info {
+	width: 47%;
+}
+
+.contact form .message {
+	width: 47%;
+}
+
+.contact .form-fields span {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #bdbdbd;
+	margin-left: 12px;
+}
+
+.contact input {
+  border: 0; 
+  outline: none;
+  flex-grow: 1;
+}
+
+.contact form .form-field {
+	display: flex;
+	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 39px; 
+}
+
+.contact form .form-field label {
+	flex-grow: 0;
+	margin-right: 5px;
+}
+
+.contact form .message span {
+	display: block;
+}
+
+.contact textarea{
+  resize: none;
+  overflow: auto;
+  width: 508px;
+  height: 126px;
+  border: 0;
+  border-bottom: 1px solid #d6d6d6;
+  outline: none;
+}
+
+form .button {
+	width: 146px;
+	margin: 0 auto;
+}
+
+form .button .btn {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	color: #fff;
+	padding: 14px 20px 14px;
+	border-radius: 5px;
+	background-color: #ff9b51;
+	border: 0;
+	box-shadow: 0 1px 3px #cfcfcf;
+	cursor: pointer;
+}
+
